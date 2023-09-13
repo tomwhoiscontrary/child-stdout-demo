@@ -1,0 +1,7 @@
+[Unit]
+Description=Simple App
+
+[Service]
+Type=exec
+Environment=PATH=%h/child-stdout-demo/build
+ExecStart=%h/child-stdout-demo/simple_app/build
